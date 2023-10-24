@@ -1,0 +1,39 @@
+.heroSection {
+    @apply w-full text-white flex items-center justify-start flex-col pt-12 md:h-[calc(60vh-48px)] h-[calc(88vh-48px)];
+}
+
+.heroImage {
+  @apply max-h-60 w-60 overflow-hidden min-h-[260px] md:max-h-36 rounded-full;
+}
+
+.heroImage img {
+    @apply object-contain object-center rounded-full;
+}
+
+.info {
+    @apply mt-10 px-10 md:max-w-xl
+}
+
+.info span {
+    @apply md:block;
+}
+
+.heroGroup {
+    @apply flex flex-col items-center md:justify-center md:flex-row md:max-w-4xl
+}
+
+.workTools {
+    @apply mt-10 h-20 flex items-center justify-start text-white border-t border-b border-gray-600 w-full overflow-scroll md:flex md:items-center md:justify-center
+}
+
+.tool {
+    @apply min-w-[80px] h-full border-r border-gray-600 p-3 md:px-8 md:flex md:items-center md:justify-center;
+}
+
+.tool img {
+    @apply w-full;
+}
+
+.tool:last-child {
+    @apply border-r-0
+}

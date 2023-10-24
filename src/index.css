@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Rubik', sans-serif;
+  @apply text-gray-100
+}
+
+body {
+  background-color: #09090B;
+  @apply bg-gradient-to-br from-black to-[#222f3e]
+}
